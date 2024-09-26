@@ -33,7 +33,7 @@ export const RegistrationForm = () => {
           Password
         </label>
         <Field type="password" name="password" id={passwordFieldId} />
-        <button type="submit">Registration</button>
+        <button className={css.btn} type="submit">Registration</button>
       </Form>
     </Formik>
   );

@@ -27,7 +27,7 @@ export const LoginForm = () => {
           Password
         </label>
         <Field type="password" name="password" id={passwordFieldId} />
-        <button type="submit">Log In</button>
+        <button className={css.btn} type="submit">Log In</button>
       </Form>
     </Formik>
   );
