@@ -5,15 +5,16 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  border: 2px solid black;
+  border: 2px solid aqua;
   margin-bottom: 10px;
   border-radius: 4px;
+  background-color: rgb(161, 193, 241);
 }
 
 .btnDelete {
   font-size: 20px;
   padding: 3px;
-  background-color: rgb(242, 144, 127);
+  background-color: rgb(236, 163, 151);
   width: 70px;
   height: 45px;
   border-radius: 4px;
